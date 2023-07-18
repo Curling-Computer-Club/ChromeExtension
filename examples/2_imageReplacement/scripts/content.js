@@ -11,6 +11,8 @@ changeColor.addEventListener("click", async () => {
   });
 });
 
+
+
 // The actual function that will be executed to change the page color
 function changeImages() {
   let images = document.querySelectorAll("img");
