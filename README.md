@@ -12,21 +12,21 @@ The manifest.json file activates the javascript.
 
 ```json
 {
-  "manifest_version": 3,
-  "name": "Name of the Chrome Extension",
-  "action": {},
-  "version": "1.0",
-  "description": "Description of the Chrome Extension",
-  "background": {
-    "service_worker": "service-worker.js"
-  },
-  "permissions": ["activeTab", "scripting", "storage"],
-  "icons": {
-    "16": "assets/img/icon.png",
-    "32": "assets/img/icon.png",
-    "48": "assets/img/icon.png",
-    "128": "assets/img/icon.png"
-  }
+    "manifest_version": 3,
+    "name": "Name of the Chrome Extension",
+    "action": {},
+    "version": "1.0",
+    "description": "Description of the Chrome Extension",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "permissions": ["activeTab", "scripting", "storage"],
+    "icons": {
+        "16": "assets/img/icon.png",
+        "32": "assets/img/icon.png",
+        "48": "assets/img/icon.png",
+        "128": "assets/img/icon.png"
+    }
 }
 ```
 
